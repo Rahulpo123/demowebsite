@@ -1,0 +1,396 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    background: rgb(41, 37, 37);
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Phudu', cursive;
+}
+.container{
+    padding: 1rem 2rem;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    font-family: 'Phudu', cursive;
+}
+.section-title{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1rem 1rem 10rem black;
+    
+}
+.section-title span{
+    color: brown;
+    background-color: transparent;
+    
+}
+hr{
+    margin-bottom: 3rem;
+    width: 80%;
+    margin-left: 5rem;
+}
+.btn{
+    margin-top: 2rem;
+    padding: 1rem 6rem;
+    text-align: center;
+    font-family: 'Phudu', cursive;
+    color: white;
+    border: solid white;
+    font-size: 1.3rem;
+    transition: ease .7s;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+/*--------------navbar--------------*/
+#nav{
+    width: 100%;
+    
+    height: 6rem;
+}
+#nav .nav{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    
+    float: right;
+}
+#nav .nav a{
+    margin: 1rem .8rem;
+    color: gray;
+    transition: ease .3s;
+}
+#nav .nav a:first-child{
+    color: white;
+}
+#nav .nav a:hover{
+    color: white;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+/*---------------------------Landing---------*/
+.landing{
+    width: 90%;
+    height: 400px;
+    box-shadow: 1rem 1rem 1.5rem black;
+    margin: 0rem 4rem;
+    color: white;
+    
+}
+#landing .content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#landing .col-left .logo{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: .7rem .8rem;
+    font-family: 'Phudu', cursive;
+}
+#landing .col-left .heading{
+    font-size: 2.3rem;
+    text-transform: capitalize;
+
+}
+#landing .col-left .images{
+    width: 100%;
+    height: 40px;
+    margin-top: .6rem;
+}
+#landing .col-left .images img{
+    margin: .4rem;
+}
+#landing .col-right{
+    margin-top: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+#landing .col-right p{
+    font-size: 1.2rem;
+}
+#landing .col-right .btn{
+    margin-top: 2rem;
+    padding: 1rem 6rem;
+    text-align: center;
+    font-family: 'Phudu', cursive;
+    color: white;
+    border: solid white;
+    font-size: 1.3rem;
+    transition: ease .7s;
+}
+#landing .col-right .btn:hover{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+/*----------------Products-------------------*/
+#products{
+    margin-top: 7rem;
+    max-height: 1900px;
+    position: relative;
+    height: 1700px;
+    background-color: rgb(41, 37, 37);
+    margin-bottom: 3rem;
+}
+#products .products{
+   width: 80%;
+   
+   margin: 3rem 9rem;
+   height: 1600px;
+   background-color: rgb(41, 37, 37);
+   box-shadow: 1rem 1rem 10rem black;
+}
+#products .furniture{
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    background: transparent;
+
+}
+#products .furniture img{
+   margin-right: 2rem;
+   margin-top: 2rem;
+   margin-left: 2rem;
+  
+
+}
+#products .furniture p{
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#products .furniture .f-text h1{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+#products .furniture .f-text a{
+    color: white;
+    margin-bottom: 2rem;
+    transition: ease .4s;
+    margin-left: 2rem;
+}
+#products .furniture .f-text a:hover{
+    color: gray;
+}
+#products .furniture:first-child{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#products .furniture:last-child{
+    flex-direction: row-reverse;
+}
+/*--------------------------material----------------------*/
+#material{
+    margin-top: 2rem;
+    height: 600px;
+    background: transparent;
+    
+}
+#material .contain{
+    margin: 4rem 3rem;
+    box-shadow: 1rem 1rem 1rem black;
+}
+#material h1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: .2rem;
+}
+/*----------------contact--------------*/
+#contact .contact{
+    margin-top: 5rem;
+    width: 80%;
+    margin: 0 7rem;
+    box-shadow: 1rem 1rem 10rem black;
+    height: 300px;
+}
+#contact .section-title{
+    margin-top: 3rem;
+    top: 3rem;
+}
+#contact input{
+    border: none;
+    padding: 1rem 0rem;
+    padding-right: 14rem;
+    padding-left: 2rem;
+    margin: 1rem 3rem;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    
+}
+#contact input:last-child{
+    padding-bottom: 5rem;
+    padding-right: 14rem;
+}
+/*---------------footer------------*/
+#footer{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    height: 20px;
+    background-color: transparent;
+}
+footer .footer h2{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+/*-------------------media query------------*/
+
+@media only screen and (max-width: 768px) {
+    #landing{
+        height: 500px;
+        
+    }
+    #landing .landing{
+        height: 450px;
+        margin:auto 2rem;
+    }
+    #landing .col-right .btn{
+        padding: 20px 10px;
+        font-size: 1rem;
+    }
+    .landing .col-right .pop{
+        display: none;
+    }
+    .landing .col-right{
+        margin: auto 1rem;
+    }
+   /*---------------products------------*/
+   #products{
+       height: 1900px;
+       margin-bottom: 5rem;
+   }
+   #products .f-text .pop{
+        display: none;
+   }
+   #products .products{
+       margin: auto 5rem;
+       height: 1800px;
+   }
+   #products .furniture:first-child{
+       flex-direction: column;
+   }
+   #products .furniture:last-child{
+       flex-direction: column;
+   }
+   #products .furniture{
+       flex-direction: column;
+   }
+   #products .furniture img{
+       width: 250px;
+       height: 200px;
+
+   }
+   /*-----------------contact-----------------*/
+   #contact .contact{
+       height: 400px;
+       margin: 5rem;
+   }
+}
+/*---------------smartphone----------------*/
+
+@media only screen and (max-width: 320px){
+    .pop1{
+        display: none;
+    }
+    #nav{
+        height: 2rem;
+        margin-bottom: 2rem;
+        background: transparent;
+    }
+    #nav .nav-items a{
+        font-size: .6rem;
+        margin: auto .5rem;
+    }
+    #landing{
+        height: 300px;
+        margin-top: 2rem;
+        
+    }
+    #landing .landing{
+        height: 250px;
+        display: grid;
+        grid-template-columns:100%;
+        margin: 1rem;
+        
+    }
+    #landing .landing img{
+        display: none;
+    }
+    #landing .landing h1{
+        font-size: 2rem;
+    }
+    #landing .landing .col-right p{
+        font-size: .6rem;
+        
+    }
+    #landing .landing .logo{
+        font-size: 1.3rem;
+        margin-left: .7rem;
+    }
+    #landing .col-right{
+        margin-left: 2rem;
+        margin-right: 3rem;
+        
+    }
+    #landing .col-right .btn{
+        padding: 12px 23px;
+        font-size: .5rem;
+        border: solid white 1px;
+    }
+/*---------------------prodcuts----------------*/
+    #products{
+        margin-top: -1rem;
+        height: 1400px;
+    }
+    #products .products{
+        margin: auto 2rem;
+        height: 1400px;
+    }
+    #products .products img{
+        height: 150px;
+        width: 100px;
+    }
+    #products .products .furniture h1{
+        font-size: 1.6rem;
+    }
+    #products hr{
+        width: 80%;
+        margin: auto 1.5rem;
+    }
+    #products .furniture p{
+       font-size: 1rem;
+    }
+    /*-------------contact----------------*/
+    #contact .contact{
+        margin: auto 2rem;
+    }
+    #contact input{
+        padding-right: 3px;
+        font-size: 12px;
+        margin: 1rem 2.4rem;
+    }
+    #contact .section-title{
+        margin-top: 1rem;
+        font-size: 2.3rem;
+    }
+    #contact input:last-child{
+        padding-right:3px ;
+    }
+}
